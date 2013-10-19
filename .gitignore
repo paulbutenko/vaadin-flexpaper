@@ -1,0 +1,8 @@
+.settings
+build
+target
+.classpath
+.project
+GWT development mode for vaadin-flexpaper.launch
+widgetsets
+lib
