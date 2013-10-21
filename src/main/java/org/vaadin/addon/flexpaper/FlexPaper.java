@@ -59,10 +59,6 @@ public class FlexPaper extends AbstractComponent {
   public void changeVariables(final Object source,
                               final Map<String, Object> variables) {
     super.changeVariables(source, variables);
-
-    if (variables.containsKey("click")) {
-      requestRepaint();
-    }
   }
 
 }
