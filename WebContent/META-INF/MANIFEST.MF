@@ -1,3 +1,8 @@
 Manifest-Version: 1.0
+Vaadin-License-Title: Apache 2.0
+Implementation-Vendor: Paul Butenko
+Implementation-Title: Vaadin FlexPaper Wrapper
+Implementation-Version: 0.0.1
+Vaadin-Package-Version: 1
+Vaadin-Widgetsets: org.vaadin.addon.flexpaper.VaadinFlexpaperWidgetset
 Class-Path: 
-
