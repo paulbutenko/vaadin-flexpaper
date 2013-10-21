@@ -9,7 +9,7 @@ import com.vaadin.terminal.gwt.client.ValueMap;
  * 
  * @author Paul Butenko (paul.butenko@gmail.com)
  */
-public class FlexPaperJs {
+class FlexPaperJs {
 	
 	/** The base url. */
 	private static String BASE_URL = GWT.getModuleBaseURL();
