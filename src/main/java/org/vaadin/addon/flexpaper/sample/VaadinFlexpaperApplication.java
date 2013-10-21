@@ -13,7 +13,7 @@ public class VaadinFlexpaperApplication extends Application {
 	public void init() {
 		Window mainWindow = new Window("Vaadin Flexpaper Application");
 		Config config = new Config();
-		config.setSwfFile("http://localhost:8080/my/docs/Paper.pdf.swf");
+		config.setSwfFile("vaadin-flexpaper/VAADIN/docs/Paper.pdf.swf");
 		config.setFullScreenAsMaxWindow(true);
 		
 		final FlexPaper fp = new FlexPaper(config);
