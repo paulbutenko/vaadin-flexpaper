@@ -8,11 +8,6 @@
 	<name>FlexPaper Vaadin Wrapper</name>
 
 	<build>
-		<resources>
-			<resource>
-				<directory>src/main/java</directory>
-			</resource>
-		</resources>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -31,9 +26,16 @@
 					<includes>
 						<include>**/*</include>
 					</includes>
+					<excludes>                      
+			            <exclude>**/maven/**</exclude>
+			        </excludes>
 					<archive>
 						<manifestFile>WebContent/META-INF/MANIFEST.MF</manifestFile>
+						<manifestEntries>
+			            	<Implementation-Version>${pom.version}</Implementation-Version>
+		            	</manifestEntries>
 					</archive>
+					
 				</configuration>
 			</plugin>
 		</plugins>
