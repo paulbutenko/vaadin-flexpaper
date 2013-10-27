@@ -23,10 +23,22 @@
 			<param-value>org.vaadin.addon.flexpaper.VaadinFlexpaperWidgetset</param-value>
 		</init-param>
 	</servlet>
+	
+	<servlet>
+		<servlet-name>PostImageServlet</servlet-name>
+		<servlet-class>org.vaadin.addon.flexpaper.sample.PostImageServlet</servlet-class>
+	</servlet>
+	
 	<servlet-mapping>
 		<servlet-name>Vaadin Flexpaper Application</servlet-name>
 		<url-pattern>/*</url-pattern>
 	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>PostImageServlet</servlet-name>
+		<url-pattern>/postimage</url-pattern>
+	</servlet-mapping>
+	
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 		<welcome-file>index.htm</welcome-file>
